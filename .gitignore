@@ -5,9 +5,10 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-
-java/com/example/StockAPIServer/FirebaseConfig.java
-resources/application.properties
+# Ignore sensitive files
+src/main/java/com/example/StockAPIServer/FirebaseConfig.java
+src/main/resources/application.properties
+src/main/resources/stockapiserver-b1e5e-firebase-adminsdk-yf15l-0c4d2856be.json
 
 ### STS ###
 .apt_generated
