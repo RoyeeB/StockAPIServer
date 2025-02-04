@@ -163,6 +163,7 @@ The server will start on `http://localhost:8080`.
 
 ```json
 [
+  {
     "AAPL",
     "AMD",
     "AMZN",
@@ -174,6 +175,7 @@ The server will start on `http://localhost:8080`.
     "QQQ",
     "SPY",
     "TSLA"
+ }
 ]
 ```
 
