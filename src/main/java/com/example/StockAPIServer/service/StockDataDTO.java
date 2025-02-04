@@ -9,7 +9,7 @@ public class StockDataDTO {
     private String logo;
     private List<StockPrice> prices;
 
-    // Constructors
+
     public StockDataDTO(String companyName,String name, String logo, List<StockPrice> prices) {
         this.companyName = companyName;
         this.name = name;
@@ -17,7 +17,7 @@ public class StockDataDTO {
         this.prices = prices;
     }
 
-    // Getters and Setters
+
 
     public String getCompanyName() {
         return companyName;
