@@ -215,7 +215,6 @@ public class StockService {
 
     public List<String> getAllStockNames() {
         try {
-            // שליפת כל המסמכים מאוסף "stocks"
             ApiFuture<QuerySnapshot> future = firestore.collection("stocks").get();
             QuerySnapshot documents = future.get();
 
