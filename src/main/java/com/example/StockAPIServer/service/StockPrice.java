@@ -10,7 +10,7 @@ public class StockPrice {
     private Double dailyChangePercent;
     private Long volume;
 
-    // Constructor
+
     public StockPrice(String date, Double closePrice, Double openPrice, Double highPrice, Double lowPrice, Double dailyChange, Double dailyChangePercent, Long volume) {
         this.date = date;
         this.closePrice = closePrice;
@@ -22,7 +22,7 @@ public class StockPrice {
         this.volume = volume;
     }
 
-    // Getters and Setters
+
     public String getDate() {
         return date;
     }
