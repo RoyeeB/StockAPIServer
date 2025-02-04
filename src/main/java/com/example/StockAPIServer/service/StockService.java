@@ -226,7 +226,6 @@ public class StockService {
                     stockNames.add(name);
                 }
             }
-
             return stockNames;
         } catch (Exception e) {
             e.printStackTrace();
