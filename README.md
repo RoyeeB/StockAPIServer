@@ -46,8 +46,7 @@ The server will start on `http://localhost:8080`.
             "dailyChangePercent": null,
             "volume": 43268700
         },
-        ...
-}
+]
 ```
 
 ### 2. Get Stock Price by Date
@@ -106,7 +105,7 @@ The server will start on `http://localhost:8080`.
         "dailyChangePercent": 0.15,
         "volume": 85516500
     },
-    ...
+
 ]
 ```
 
@@ -164,9 +163,17 @@ The server will start on `http://localhost:8080`.
 
 ```json
 [
-  "AAPL",
-  "GOOGL",
-  "MSFT"
+    "AAPL",
+    "AMD",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "NVDA",
+    "PLTR",
+    "QQQ",
+    "SPY",
+    "TSLA"
 ]
 ```
 
