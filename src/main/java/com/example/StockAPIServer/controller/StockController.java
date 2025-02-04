@@ -52,5 +52,10 @@ public class StockController {
         return stockService.compareStocks(names, startDate, endDate);
     }
 
+    @GetMapping("/stocks")
+    public List<String> getAllStockNames() {
+        return stockService.getAllStockNames();
+    }
+
 
 }
